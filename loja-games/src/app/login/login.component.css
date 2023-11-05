@@ -1,0 +1,123 @@
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+#section-login{
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+} */
+
+.container-grid {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: "Roboto";
+}
+
+.titulo-cadastro {
+    display: flex;
+}
+
+.titulo-central {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.titulo3 {
+    margin-top: 17rem;
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+    margin-bottom: 2%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-cadastro-login {
+    display: flex;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.35 );
+    backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100%;
+    height: 500px;
+}
+
+.menu-cadastro-login > form{
+    width: 100px;
+    height: 100px;
+}
+
+.menu-cadastro-login input{
+    width: 350px;
+    height: 50px;
+}
+
+.ja-cadastrado {
+    display: grid;
+    margin-right: 40%;
+}
+
+.cadastrar {
+    display: grid;
+    margin-right: 25%;
+}
+
+.form-cadastrado input, button{
+    margin-top: 10px;
+}
+
+.form-cadastrar input, button{
+    margin-top: 10px;
+}
+
+input::placeholder{
+    color: rgb(34, 34, 34);
+}
+
+input{
+    color: rgb(34, 34, 34);
+}
+
+.botao-entrar, .botao-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B67C1;
+    color: #FFFFFF;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+.menu-cadastro-login img {
+    width: 40px;
+    height: 125%;
+    margin: 5px;
+}
+
+.esqueci-menu {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.esqueci-menu a {
+    font-weight: 500;
+    color: black;
+}

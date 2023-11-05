@@ -1,0 +1,53 @@
+<!-- <main>
+    <section id="section-login">
+        <h2>Login</h2>
+        <form class="row g-3">
+            
+              <label for="staticUsuario" class="visually-hidden">Usuário</label>
+              <input type="text" class="form-control" id="staticUsuario" placeholder="email@exemplo.com">
+            
+            <br>
+            
+              <label for="inputPassword2" class="visually-hidden">Senha</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="senha">
+              <br>
+              <button type="submit" class="btn btn-primary mb-3">Login</button>
+          
+          </form>
+    </section>
+</main> -->
+
+<main>
+  <div class="container-grid">
+        
+    <div class="titulo-cadastro">
+        <p class="titulo3"> <img src="./assets/img/cadastro_icon.svg" alt="" >&ensp;IDENTIFICAÇÃO</p>
+    </div>
+    <div class="menu-cadastro-login">
+        <form class="ja-cadastrado">
+            <a class="titulo-central">JÁ TENHO CADASTRO</a>
+            <form class="form-cadastrado">
+                <input type="text" placeholder="E-mail, CPF ou CNPJ" id="login">
+                <input type="password" placeholder="Senha" maxlength="8" size="35" id="senha">
+                <button class="botao-entrar" onclick="logar(); return false"> <img src="./assets/img/entrar_branco.png" > Entrar</button>
+                <nav class="esqueci-menu">
+                    <a href="#">Esqueci meu login</a>
+                    <a href="#">Esqueci minha senha</a>
+                </nav>
+            </form>
+        </form>
+        <form class="cadastrar">
+            <a class="titulo-central">QUERO ME CADASTRAR</a>
+            <form class="form-cadastrar" name="formCadastro" method="post" action="">
+                <input type="text" placeholder="Nome" id="nome">
+                <input type="text" placeholder="CPF ou CNPJ" id="criarLogin">
+                <input type="email" placeholder="E-mail" id="email">
+                <input type="tel" placeholder="Telefone" id="phone">
+                <input type="password" placeholder="Senha" maxlength="8" size="35" id="criarSenha">
+                <input type="password" placeholder="Confirmar Senha" maxlength="8" size="35" id="confirmarsenha">
+                <button class="botao-cadastro" onclick="cadastroLogin(); return false" ><img src="./assets/img/cadastro_branco.png"> CADASTRAR</button>
+            </form>
+        </form>
+    </div>
+</div>
+</main>
